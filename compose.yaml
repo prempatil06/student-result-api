@@ -1,0 +1,6 @@
+﻿services:
+  student-api:
+    build: .
+    image: student-result-api-student-api
+    ports:
+      - "5000:5000"
